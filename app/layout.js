@@ -3,6 +3,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import SessionWrapper from "@/components/ui/SessionWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
     // suppressHydrationWarning silences React’s mismatch warning on <html>
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <SessionWrapper>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -32,6 +34,7 @@ export default function RootLayout({ children }) {
         >
           {children}
         </ThemeProvider>
+        </SessionWrapper>
       </body>
     </html>
   );

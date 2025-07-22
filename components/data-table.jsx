@@ -125,7 +125,7 @@ function DragHandle({
   );
 }
 
-const columns = [
+const hardcodedColumns = [
   {
     id: "drag",
     header: () => null,
@@ -319,9 +319,14 @@ function DraggableRow({
 }
 
 export function DataTable({
-  data: initialData
+  data: initialData,
+  columns,
 }) {
   const [data, setData] = React.useState(() => initialData)
+
+  React.useEffect(() => {
+    setData(initialData);
+  }, [initialData]);
   const [rowSelection, setRowSelection] = React.useState({})
   const [columnVisibility, setColumnVisibility] =
     React.useState({})

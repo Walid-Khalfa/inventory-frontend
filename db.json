@@ -1,0 +1,70 @@
+{
+  "sales": [
+    {
+      "id": 1753367667971,
+      "customer_name": "hhhh",
+      "invoice_number": "455mm",
+      "customer_email": "fff@gmail.com",
+      "customer_phone": "123456789",
+      "date": "2025-07-24T14:31:26.803Z",
+      "notes": "kkkk",
+      "products": [
+        {
+          "product": "2",
+          "quantity": 1,
+          "price": 50
+        }
+      ],
+      "subtotal": 50,
+      "discount_amount": 5,
+      "tax_amount": 3,
+      "total": 48,
+      "createdAt": "2025-07-24T14:34:27.971Z",
+      "updatedAt": "2025-07-24T14:34:27.971Z"
+    },
+    {
+      "id": 1753393696290,
+      "customer_name": "lmllll",
+      "invoice_number": "mmmm",
+      "customer_email": "njkll@gmail.com",
+      "customer_phone": "123456789",
+      "date": "2025-07-24T21:42:13.338Z",
+      "notes": "kjhfdsmk",
+      "products": [
+        {
+          "product": 2,
+          "quantity": 1,
+          "price": 50
+        }
+      ],
+      "subtotal": 50,
+      "discount_amount": 5,
+      "tax_amount": 3.6,
+      "total": 48.6,
+      "createdAt": "2025-07-24T21:48:16.290Z",
+      "updatedAt": "2025-07-24T21:48:16.290Z"
+    },
+    {
+      "id": 1753393819817,
+      "customer_name": "Walid Khalfa",
+      "invoice_number": "mlopkl",
+      "customer_email": "Khelfawalid@gmail.com",
+      "customer_phone": "123456789",
+      "date": "2025-07-24T21:49:05.267Z",
+      "notes": "oppkl",
+      "products": [
+        {
+          "product": 2,
+          "quantity": 1,
+          "price": 50
+        }
+      ],
+      "subtotal": 50,
+      "discount_amount": 5,
+      "tax_amount": 3.6,
+      "total": 48.6,
+      "createdAt": "2025-07-24T21:50:19.817Z",
+      "updatedAt": "2025-07-24T21:50:19.817Z"
+    }
+  ]
+}

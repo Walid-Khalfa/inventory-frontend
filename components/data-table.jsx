@@ -321,7 +321,16 @@ function DraggableRow({
 export function DataTable({
   data: initialData,
   columns,
+  loading,
 }) {
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-24">
+        <p className="text-muted-foreground">Loading...</p>
+      </div>
+    );
+  }
+
   const [data, setData] = React.useState(() => initialData)
 
   React.useEffect(() => {

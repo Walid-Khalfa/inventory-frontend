@@ -24,7 +24,10 @@ export default function RootLayout({ children }) {
   return (
     // suppressHydrationWarning silences React’s mismatch warning on <html>
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning={true} // <-- ADD THIS LINE
+      >
         <SessionWrapper>
         <ThemeProvider
           attribute="class"

@@ -65,6 +65,28 @@
       "total": 48.6,
       "createdAt": "2025-07-24T21:50:19.817Z",
       "updatedAt": "2025-07-24T21:50:19.817Z"
+    },
+    {
+      "id": 1753463196494,
+      "customer_name": "John Doe",
+      "invoice_number": "testinvoice",
+      "customer_email": "johndoe@gmail.com",
+      "customer_phone": "3",
+      "date": "2025-07-25T17:05:39.659Z",
+      "notes": "lmmmk",
+      "products": [
+        {
+          "product": 2,
+          "quantity": 1,
+          "price": 50
+        }
+      ],
+      "subtotal": 50,
+      "discount_amount": 5,
+      "tax_amount": 3.6,
+      "total": 48.6,
+      "createdAt": "2025-07-25T17:06:36.494Z",
+      "updatedAt": "2025-07-25T17:06:36.494Z"
     }
   ]
 }
